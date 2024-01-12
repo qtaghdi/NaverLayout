@@ -1,0 +1,271 @@
+.img2 img {
+  width: 30vw;
+  background-size: cover;
+  height: 20vw;
+  border-radius: 10px;
+}
+
+.weather {
+  padding: 20px;
+  width: 30vw;
+  height: 20vw;
+}
+
+.jb-division-line {
+  border-top: 1px solid #c9c9c9;
+}
+.wInfor {
+  width: 200px;
+  height: 150px;
+}
+.cloud {
+  width: 180px;
+  height: 100px;
+}
+.plzCenter {
+  text-align: center;
+}
+.BigFont button {
+  border-radius: 15px;
+  padding: 10px;
+  height: 32px;
+  text-align: center;
+  background-color: white;
+}
+.reload {
+  width: 25px;
+  height: 25px;
+}
+.Dow {
+  width: 180px;
+  height: 140px;
+}
+.txtcenter {
+  height: 100px;
+  align-items: center;
+  text-align: center;
+}
+.plus {
+  width: 70px;
+  height: 50px;
+}
+.wiget {
+  padding: 20px;
+  width: 30vw;
+  background-color: #eaeaea;
+}
+.wigetBox {
+  padding: 20px;
+  width: 400px;
+  height: 200px;
+  background-color: white;
+}
+.lock {
+  position: relative;
+  left: 160px;
+  width: 40px;
+  height: 40px;
+  order: 0;
+}
+.calender {
+  width: 200px;
+  height: 120px;
+  order: 1;
+}
+.LockCal {
+  margin-top: -5px;
+  display: flex;
+  flex-direction: column;
+}
+.BigFontC {
+  font-weight: 700;
+}
+.Jan {
+  font-size: 30px;
+  font-weight: 600;
+}
+.Fri {
+  font-size: 12px;
+}
+.fUp {
+  width: 400px;
+  height: 50px;
+  border-radius: 10px 10px 0 0;
+  background-color: greenyellow;
+  padding: 15px 20px;
+}
+.fMid {
+  width: 400px;
+  height: 50px;
+  text-align: center;
+  background-color: white;
+}
+.fontLock {
+  font-weight: 600;
+}
+.fDw {
+  width: 400px;
+  background-color: white;
+  height: 50px;
+  border-radius: 0 0 10px 10px;
+  align-items: center;
+}
+.pen {
+  width: 43px;
+  height: 43px;
+}
+.PaPago {
+  text-align: left;
+  font-weight: 30px;
+  font-weight: 700;
+}
+.papagoF {
+  padding: 15px 20px;
+  width: 180px;
+  background-color: white;
+  text-align: center;
+}
+.papagoF2 {
+  padding: 15px 20px;
+  width: 180px;
+  height: 220px;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+.pBird {
+  width: 140px;
+  height: 100px;
+}
+.tran {
+  border-radius: 30px;
+  background-color: blue;
+  color: white;
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+}
+.jb-division-line2 {
+  margin-left: -20px;
+  border-top: 1px solid #c9c9c9;
+  width: 180px;
+  height: 13px;
+}
+.Eng {
+  height: 10px;
+  text-align: left;
+  font-weight: 600;
+}
+.zoom {
+  width: 50px;
+  height: 45px;
+  position: absolute;
+}
+.Post {
+  width: 180px;
+}
+.naver2 {
+  width: 30px;
+  height: 25px;
+}
+.mobile {
+  font-weight: 700;
+}
+.mmm {
+  display: flex;
+  align-items: center;
+}
+.hwa {
+  font-weight: 700;
+  margin-right: -120%;
+}
+.prize {
+  width: 50px;
+  height: 50px;
+}
+.pzi {
+  display: flex;
+  align-items: center;
+}
+.cl {
+  flex-direction: column;
+  margin-left: 10px;
+}
+.cl1 {
+  font-weight: 600;
+}
+.point2 {
+  width: 100px;
+  height: 60px;
+}
+.hr {
+  width: 275px;
+  height: 180px;
+}
+.jb-division-line3 {
+  border-top: 1px solid #c9c9c9;
+  width: 90%;
+  height: 13px;
+}
+.gap10 {
+  gap: 3vw;
+}
+.notice {
+  width: 90%;
+  justify-self: center;
+  display: flex;
+}
+.notice2 {
+  width: 90%;
+  justify-self: center;
+  display: flex;
+  justify-content: center;
+}
+.ntxt {
+  font-weight: 700;
+  color: black;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.fdc {
+  display: flex;
+  flex-direction: column;
+}
+.box4 {
+  width: 300px;
+}
+.crt {
+  font-weight: 700;
+}
+.whale {
+  width: 48px;
+  height: 48px;
+  margin-left: 10px;
+}
+.guide {
+  display: flex;
+  align-items: center;
+}
+.blck {
+  color: black;
+}
+.cnt {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+}
+.ml10 {
+  margin-left: 20px;
+}
+.just {
+  justify-self: center;
+}
+.fb2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }

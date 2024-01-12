@@ -1,0 +1,233 @@
+/* 기초설정 */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1.5em;
+  scroll-behavior: smooth;
+}
+
+/* 기본적인 크기 설정 */
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+label {
+  cursor: pointer;
+}
+
+/* 세션은 기본적으로 relative를 사용해서 위에서 부터 차곡 차곡 올리는 느낌 */
+section {
+  position: relative;
+}
+
+/* 버튼은 기본적인 style을 가지고있다. 그래서 초기화를 시켜야한다. */
+/* border을 없애준다.*/
+/*  text-decoration 택스트 style 초기화 */
+/* display inline-block은 inline와 block 성질을 둘다 가지고 있다. */
+/* color는 폰트 색상을 설정한다. */
+a,
+button {
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+}
+
+/* ul, li는 기본적으로 style을 가지고 있다. 초기화 해주어야하는데 그 코드가 list-style: none; 이것이다. */
+ul,
+li {
+  list-style: none;
+}
+
+/* input은 보일 필요가 기본적으로 없다. 왜냐 label을 통해서 컨트롤하기 떄문이다. */
+.index input {
+  display: none;
+}
+
+/* 레이아웃 */
+/* vw라는 단위는 화면의 70%라고 생각하면된다. px로 하자면 1vw 19px이다. 가로가 줄어들면 px의 단위는 줄어들어 */
+/* margin: 0 auto; 0은 세로, auto는 가로 */
+.container {
+  width: 90vw;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* justify-content이것을 사용하기 위해서 display: flex를 사용한다. 편하게 css가 만들어 놓은 정렬기능을 사용하기 위해서 */
+.f,
+.fb,
+.fc,
+.fe,
+.fs {
+  display: flex;
+}
+
+/* space-between은 말 그대로 비율을 맞춰서 서로 뛰어서 앉는다. */
+.fb {
+  justify-content: space-between;
+}
+
+/* center는 중앙정렬 */
+.fc {
+  justify-content: center;
+}
+
+/* end는 끝에서부터 시작 */
+.fe {
+  justify-content: end;
+}
+
+/* end는 앞에서부터 시작 */
+.fs {
+  justify-content: start;
+}
+
+/* 정렬 */
+/* flex-flow: column; 이것은 정렬의 방향인 세로와 가로를 바꾼다. 세로 정렬을 하기 위해서 사용한다.*/
+.r,
+.re,
+.rc,
+.cc {
+  display: flex;
+  flex-flow: column;
+}
+
+/* justify-content: end은 세로로 끝에서 시작한다. */
+.re {
+  justify-content: end;
+}
+
+/* justify-content: start은 세로로 앞에서에서 시작한다. */
+.rs {
+  justify-content: start;
+}
+
+/* justify-content: center은 세로로 중간에서에서 시작한다. */
+.rc {
+  justify-content: center;
+}
+
+/* justify-content: center은 세로로 중간에서에서 시작한다.
+     align-items: center은 가로로 중간에서 시작된다. 
+     결과는 가로 세로 중간 정렬이 된다. */
+.cc {
+  justify-content: center;
+  align-items: center;
+}
+
+.mts {
+  margin-top: 0.25vw;
+}
+
+.mt1 {
+  margin-top: 0.5vw;
+}
+
+.mt2 {
+  margin-top: 1vw;
+}
+
+.mt3 {
+  margin-top: 1.5vw;
+}
+
+.mt4 {
+  margin-top: 2vw;
+}
+
+.mt5 {
+  margin-top: 2.5vw;
+}
+
+.mt6 {
+  margin-top: 3vw;
+}
+
+.mt7 {
+  margin-top: 3.5vw;
+}
+
+.mt8 {
+  margin-top: 4vw;
+}
+
+.mt9 {
+  margin-top: 4.5vw;
+}
+
+.mt10 {
+  margin-top: 5vw;
+}
+
+.p8 {
+  padding: 4vw 0;
+}
+
+.mt20 {
+  margin-top: 8vw;
+}
+
+/* 폰트 색상 */
+.cp1 {
+  color: #03c75a;
+}
+.cp2 {
+  color: rgb(74, 74, 182);
+}
+
+/* 푸터 */
+footer {
+  padding: 2vw;
+  background-color: #a1a0a0;
+}
+footer img {
+  height: 45px;
+  width: 150px;
+}
+footer p {
+  color: white;
+}
+.br10{
+  border-radius: 10px;
+}
+.br5{
+  border-radius: 5px;
+}
+.brUnder{
+  border-radius: 0 0 10px 10px;
+}
+.brUp{
+  border-radius: 10px 10px 0 0;
+}
+.frameUp{
+  width: 58vw;
+  padding: 25px 25px;
+}
+.frameUpgrade{
+  width: 58vw;
+  padding: 25px 25px;
+}
+.frameDown{
+  display: flex;
+  width: 58vw;
+  height: 5vw;
+  text-align: center;
+  align-items: center;
+}
+.coalout{
+  width: 54vw;
+  height: 3vw;
+  background-color: #f5f7f8;
+  padding: 11px;
+}
+.arrow{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.twoOne {
+  border: 1px solid rgb(218, 218, 218);
+}

@@ -1,0 +1,22 @@
+.BigFont{
+    font-size: 20px;
+    font-weight: 700;
+}
+table{
+    width: 54vw;
+    height: 10vw;
+    border-collapse: collapse;
+}
+td {
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    width: 50px;
+    height: 30px;
+}
+.frameDown span{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    line-height: 50px;
+}

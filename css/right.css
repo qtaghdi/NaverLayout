@@ -62,7 +62,6 @@
 }
 .lock {
   position: relative;
-  left: 160px;
   width: 40px;
   height: 40px;
   order: 0;
@@ -269,3 +268,7 @@
     align-items: center;
     justify-content: flex-end;
   }
+.dasd2 {
+    width: 35px;
+    margin-left: 10px;
+}
